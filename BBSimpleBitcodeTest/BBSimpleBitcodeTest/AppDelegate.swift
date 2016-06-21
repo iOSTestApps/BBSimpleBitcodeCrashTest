@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        BuddyBuildSDK.setup()
+
         // Override point for customization after application launch.
         var crashWithMissingValueInDicitonary = Dictionary<Int,Int>()
         let crashInt = crashWithMissingValueInDicitonary[1]!

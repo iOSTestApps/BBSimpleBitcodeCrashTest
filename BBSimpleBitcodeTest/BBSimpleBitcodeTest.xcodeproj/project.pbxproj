@@ -12,6 +12,16 @@
 		8391B8641CF8EC0F002C5C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8621CF8EC0F002C5C9B /* Main.storyboard */; };
 		8391B8661CF8EC0F002C5C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8651CF8EC0F002C5C9B /* Assets.xcassets */; };
 		8391B8691CF8EC0F002C5C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8671CF8EC0F002C5C9B /* LaunchScreen.storyboard */; };
+		F0A0D31C1D18CDFB00788DC7 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D31B1D18CDFB00788DC7 /* BuddyBuildSDK.framework */; };
+		F0A0D31E1D18CE0300788DC7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D31D1D18CE0300788DC7 /* AssetsLibrary.framework */; };
+		F0A0D3201D18CE0900788DC7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D31F1D18CE0900788DC7 /* CoreTelephony.framework */; };
+		F0A0D3221D18CE0F00788DC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D3211D18CE0F00788DC7 /* CoreText.framework */; };
+		F0A0D3241D18CE1500788DC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D3231D18CE1500788DC7 /* CoreMedia.framework */; };
+		F0A0D3261D18CE1A00788DC7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D3251D18CE1A00788DC7 /* AVFoundation.framework */; };
+		F0A0D3281D18CE2000788DC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D3271D18CE2000788DC7 /* CoreVideo.framework */; };
+		F0A0D32A1D18CE2800788DC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D3291D18CE2800788DC7 /* QuartzCore.framework */; };
+		F0A0D32C1D18CE2C00788DC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A0D32B1D18CE2C00788DC7 /* SystemConfiguration.framework */; };
+		F0A0D32F1D18CE7600788DC7 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A0D32E1D18CE7600788DC7 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,17 @@
 		8391B8651CF8EC0F002C5C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8391B8681CF8EC0F002C5C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8391B86A1CF8EC0F002C5C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A0D31B1D18CDFB00788DC7 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		F0A0D31D1D18CE0300788DC7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F0A0D31F1D18CE0900788DC7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F0A0D3211D18CE0F00788DC7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F0A0D3231D18CE1500788DC7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F0A0D3251D18CE1A00788DC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F0A0D3271D18CE2000788DC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F0A0D3291D18CE2800788DC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0A0D32B1D18CE2C00788DC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0A0D32D1D18CE7600788DC7 /* BBSimpleBitcodeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBSimpleBitcodeTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0A0D32E1D18CE7600788DC7 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A0D32C1D18CE2C00788DC7 /* SystemConfiguration.framework in Frameworks */,
+				F0A0D32A1D18CE2800788DC7 /* QuartzCore.framework in Frameworks */,
+				F0A0D3281D18CE2000788DC7 /* CoreVideo.framework in Frameworks */,
+				F0A0D3261D18CE1A00788DC7 /* AVFoundation.framework in Frameworks */,
+				F0A0D3241D18CE1500788DC7 /* CoreMedia.framework in Frameworks */,
+				F0A0D3221D18CE0F00788DC7 /* CoreText.framework in Frameworks */,
+				F0A0D3201D18CE0900788DC7 /* CoreTelephony.framework in Frameworks */,
+				F0A0D31E1D18CE0300788DC7 /* AssetsLibrary.framework in Frameworks */,
+				F0A0D31C1D18CDFB00788DC7 /* BuddyBuildSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +68,15 @@
 		8391B8521CF8EC0F002C5C9B = {
 			isa = PBXGroup;
 			children = (
+				F0A0D32B1D18CE2C00788DC7 /* SystemConfiguration.framework */,
+				F0A0D3291D18CE2800788DC7 /* QuartzCore.framework */,
+				F0A0D3271D18CE2000788DC7 /* CoreVideo.framework */,
+				F0A0D3251D18CE1A00788DC7 /* AVFoundation.framework */,
+				F0A0D3231D18CE1500788DC7 /* CoreMedia.framework */,
+				F0A0D3211D18CE0F00788DC7 /* CoreText.framework */,
+				F0A0D31F1D18CE0900788DC7 /* CoreTelephony.framework */,
+				F0A0D31D1D18CE0300788DC7 /* AssetsLibrary.framework */,
+				F0A0D31B1D18CDFB00788DC7 /* BuddyBuildSDK.framework */,
 				8391B85D1CF8EC0F002C5C9B /* BBSimpleBitcodeTest */,
 				8391B85C1CF8EC0F002C5C9B /* Products */,
 			);
@@ -60,6 +99,8 @@
 				8391B8651CF8EC0F002C5C9B /* Assets.xcassets */,
 				8391B8671CF8EC0F002C5C9B /* LaunchScreen.storyboard */,
 				8391B86A1CF8EC0F002C5C9B /* Info.plist */,
+				F0A0D32E1D18CE7600788DC7 /* test.m */,
+				F0A0D32D1D18CE7600788DC7 /* BBSimpleBitcodeTest-Bridging-Header.h */,
 			);
 			path = BBSimpleBitcodeTest;
 			sourceTree = "<group>";
@@ -138,6 +179,7 @@
 			files = (
 				8391B8611CF8EC0F002C5C9B /* ViewController.swift in Sources */,
 				8391B85F1CF8EC0F002C5C9B /* AppDelegate.swift in Sources */,
+				F0A0D32F1D18CE7600788DC7 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +294,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeCrashTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "43953b8a-2990-438c-8de8-481590bf2843";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBSimpleBitcodeTest/BBSimpleBitcodeTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -266,12 +315,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeCrashTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "43953b8a-2990-438c-8de8-481590bf2843";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBSimpleBitcodeTest/BBSimpleBitcodeTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
